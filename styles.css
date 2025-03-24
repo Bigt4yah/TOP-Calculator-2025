@@ -1,0 +1,85 @@
+#calcContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    flex-direction: column;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+
+#buttonContainer{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#numbersAndOperatorsContainer{
+    display: flex;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+
+#numberContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.numberRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#operatorContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+
+.operatorValue{
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+button{
+    width: 50px;
+    height: 50px;
+}
+
+#lastRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#equals{
+    width: auto;
+    flex-grow: 1;    
+    /* width: 150px;
+    height: 50px; */
+
+}
+
