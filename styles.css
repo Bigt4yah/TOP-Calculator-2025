@@ -5,9 +5,9 @@
     width: 320px;
     height: 320px;
     flex-direction: column;
-    border-color: black;
+    /* border-color: black;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     
 }
 
@@ -15,52 +15,62 @@
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
 }
 
 #numbersAndOperatorsContainer{
     display: flex;
-    border-color: black;
+    /* border-color: red;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
 }
-
-
 
 #numberContainer{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    border-color: black;
+    /* border-color: yellow;
     border-width: 2px;
+    border-style: solid; */
+    flex: 1;
+}
+
+.outputWindow{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: right;
+    align-items: flex-end;
+    /* border-color: purple;
     border-style: solid;
+    border-width: 3px; */
 }
 
 .numberRow{
     display: flex;
+    justify-self: center;
+    align-self: center;
     justify-content: center;
     align-items: center;
+    /* border-color: blue;
+    border-width: 1px;
+    border-style: solid; */
+    flex: 1 1 0;
 }
 
 #operatorContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-color: black;
+    /* border-color: black;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     
 }
 
 .operatorValue{
     display: flex;
     flex-direction: column;
-    border-color: black;
+    /* border-color: black;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
 }
 
 
